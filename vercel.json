@@ -1,0 +1,9 @@
+{
+  "framework": "vite",
+  "installCommand": "cd buildbuddy && npm install",
+  "buildCommand": "cd buildbuddy && npm run build",
+  "outputDirectory": "buildbuddy/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
